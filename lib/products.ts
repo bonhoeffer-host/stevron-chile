@@ -1,0 +1,43 @@
+export interface Product {
+  code: string;
+  title: string;
+  category: string;
+  group: string;
+  image: string;
+  description: string;
+  availability: string;
+}
+
+export const STEVRON_PRODUCTS: Product[] = [
+  { code: "B3LP7910", title: "Alicate profesional", category: "Alicates y corte", group: "Herramientas manuales", image: "/products/hand-tool-B3LP7910.png", description: "Agarre firme, corte eficiente y diseño pensado para largas jornadas.", availability: "Disponible en Chile" },
+  { code: "BAS10L", title: "Alicate profesional", category: "Alicates y corte", group: "Herramientas manuales", image: "/products/hand-tool-BAS10L.png", description: "Agarre firme, corte eficiente y diseño pensado para largas jornadas.", availability: "Disponible en Chile" },
+  { code: "BAS10R", title: "Alicate profesional", category: "Alicates y corte", group: "Herramientas manuales", image: "/products/hand-tool-BAS10R.png", description: "Agarre firme, corte eficiente y diseño pensado para largas jornadas.", availability: "Disponible en Chile" },
+  { code: "BAS10S", title: "Alicate profesional", category: "Alicates y corte", group: "Herramientas manuales", image: "/products/hand-tool-BAS10S.png", description: "Agarre firme, corte eficiente y diseño pensado para largas jornadas.", availability: "Disponible en Chile" },
+  { code: "BCC6", title: "Alicate profesional", category: "Alicates y corte", group: "Herramientas manuales", image: "/products/hand-tool-BCC6.png", description: "Agarre firme, corte eficiente y diseño pensado para largas jornadas.", availability: "Disponible en Chile" },
+  { code: "BCC8", title: "Alicate profesional", category: "Alicates y corte", group: "Herramientas manuales", image: "/products/hand-tool-BCC8.png", description: "Agarre firme, corte eficiente y diseño pensado para largas jornadas.", availability: "Disponible en Chile" },
+  { code: "BCCG2216250", title: "Alicate profesional", category: "Alicates y corte", group: "Herramientas manuales", image: "/products/hand-tool-BCCG2216250.png", description: "Agarre firme, corte eficiente y diseño pensado para largas jornadas.", availability: "Disponible en Chile" },
+  { code: "BCCG2518300", title: "Alicate profesional", category: "Alicates y corte", group: "Herramientas manuales", image: "/products/hand-tool-BCCG2518300.png", description: "Agarre firme, corte eficiente y diseño pensado para largas jornadas.", availability: "Disponible en Chile" },
+  { code: "BCLP11", title: "Alicate profesional", category: "Alicates y corte", group: "Herramientas manuales", image: "/products/hand-tool-BCLP11.png", description: "Agarre firme, corte eficiente y diseño pensado para largas jornadas.", availability: "Disponible en Chile" },
+  { code: "BCLP6", title: "Alicate profesional", category: "Alicates y corte", group: "Herramientas manuales", image: "/products/hand-tool-BCLP6.png", description: "Agarre firme, corte eficiente y diseño pensado para largas jornadas.", availability: "Disponible en Chile" },
+  { code: "BLPC10", title: "Alicate profesional", category: "Alicates y corte", group: "Herramientas manuales", image: "/products/hand-tool-BLPC10.png", description: "Agarre firme, corte eficiente y diseño pensado para largas jornadas.", availability: "Disponible en Chile" },
+  { code: "BLPC7", title: "Alicate profesional", category: "Alicates y corte", group: "Herramientas manuales", image: "/products/hand-tool-BLPC7.png", description: "Agarre firme, corte eficiente y diseño pensado para largas jornadas.", availability: "Disponible en Chile" },
+  { code: "BLPLN9", title: "Alicate profesional", category: "Alicates y corte", group: "Herramientas manuales", image: "/products/hand-tool-BLPLN9.png", description: "Agarre firme, corte eficiente y diseño pensado para largas jornadas.", availability: "Disponible en Chile" },
+  { code: "BLPS10", title: "Alicate profesional", category: "Alicates y corte", group: "Herramientas manuales", image: "/products/hand-tool-BLPS10.png", description: "Agarre firme, corte eficiente y diseño pensado para largas jornadas.", availability: "Disponible en Chile" },
+  { code: "BPP10", title: "Alicate profesional", category: "Alicates y corte", group: "Herramientas manuales", image: "/products/hand-tool-BPP10.png", description: "Agarre firme, corte eficiente y diseño pensado para largas jornadas.", availability: "Disponible en Chile" },
+  { code: "BBC12", title: "Herramienta de corte", category: "Corte y tubería", group: "Herramientas manuales", image: "/products/hand-tool-BBC12.png", description: "Capacidad de corte profesional con control, precisión y durabilidad.", availability: "Disponible en Chile" },
+  { code: "BBC14", title: "Herramienta de corte", category: "Corte y tubería", group: "Herramientas manuales", image: "/products/hand-tool-BBC14.png", description: "Capacidad de corte profesional con control, precisión y durabilidad.", availability: "Disponible en Chile" },
+  { code: "BBC18", title: "Herramienta de corte", category: "Corte y tubería", group: "Herramientas manuales", image: "/products/hand-tool-BBC18.png", description: "Capacidad de corte profesional con control, precisión y durabilidad.", availability: "Disponible en Chile" },
+  { code: "BBC24", title: "Herramienta de corte", category: "Corte y tubería", group: "Herramientas manuales", image: "/products/hand-tool-BBC24.png", description: "Capacidad de corte profesional con control, precisión y durabilidad.", availability: "Disponible en Chile" },
+  { code: "BBC30", title: "Herramienta de corte", category: "Corte y tubería", group: "Herramientas manuales", image: "/products/hand-tool-BBC30.png", description: "Capacidad de corte profesional con control, precisión y durabilidad.", availability: "Disponible en Chile" },
+  { code: "BBC36", title: "Herramienta de corte", category: "Corte y tubería", group: "Herramientas manuales", image: "/products/hand-tool-BBC36.png", description: "Capacidad de corte profesional con control, precisión y durabilidad.", availability: "Disponible en Chile" },
+  { code: "BPCPVC42", title: "Herramienta de corte", category: "Corte y tubería", group: "Herramientas manuales", image: "/products/hand-tool-BPCPVC42.png", description: "Capacidad de corte profesional con control, precisión y durabilidad.", availability: "Disponible en Chile" },
+  { code: "BTS10", title: "Herramienta de corte", category: "Corte y tubería", group: "Herramientas manuales", image: "/products/hand-tool-BTS10.png", description: "Capacidad de corte profesional con control, precisión y durabilidad.", availability: "Disponible en Chile" },
+  { code: "BTS12", title: "Herramienta de corte", category: "Corte y tubería", group: "Herramientas manuales", image: "/products/hand-tool-BTS12.png", description: "Capacidad de corte profesional con control, precisión y durabilidad.", availability: "Disponible en Chile" },
+  { code: "BFDB25", title: "Broca / accesorio de fresado", category: "Brocas y fresado", group: "Accesorios", image: "/products/accesories-BFDB25.png", description: "Perforación limpia y precisa con alta resistencia al desgaste.", availability: "Disponible en Chile" },
+  { code: "BFDB32", title: "Broca / accesorio de fresado", category: "Brocas y fresado", group: "Accesorios", image: "/products/accesories-BFDB32.png", description: "Perforación limpia y precisa con alta resistencia al desgaste.", availability: "Disponible en Chile" },
+  { code: "BFDB35", title: "Broca / accesorio de fresado", category: "Brocas y fresado", group: "Accesorios", image: "/products/accesories-BFDB35.png", description: "Perforación limpia y precisa con alta resistencia al desgaste.", availability: "Disponible en Chile" },
+  { code: "BWCB100PF", title: "Cepillo de alambre", category: "Cepillos de alambre", group: "Accesorios", image: "/products/accesories-BWCB100PF.png", description: "Remoción efectiva de óxido, pintura y residuos de soldadura.", availability: "Disponible en Chile" },
+  { code: "BWCB125M", title: "Cepillo de alambre", category: "Cepillos de alambre", group: "Accesorios", image: "/products/accesories-BWCB125M.png", description: "Remoción efectiva de óxido, pintura y residuos de soldadura.", availability: "Disponible en Chile" },
+  { code: "BWCB150M", title: "Cepillo de alambre", category: "Cepillos de alambre", group: "Accesorios", image: "/products/accesories-BWCB150M.png", description: "Remoción efectiva de óxido, pintura y residuos de soldadura.", availability: "Disponible en Chile" },
+  { code: "BDCW115", title: "Disco de alto rendimiento", category: "Discos y abrasivos", group: "Accesorios", image: "/products/accesories-BDCW115.png", description: "Corte y desbaste eficiente con rendimiento estable y seguro.", availability: "Disponible en Chile" },
+];
