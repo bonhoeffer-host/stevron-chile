@@ -12,7 +12,7 @@ export default function LaunchFocus() {
 
   return (
     <section className="grid grid-cols-1 md:grid-cols-3">
-      <article className="relative min-h-[360px] md:min-h-[460px] overflow-hidden md:border-r border-b md:border-b-0 border-white/25 cursor-pointer group">
+      <article className="relative min-h-[420px] md:min-h-[460px] overflow-hidden md:border-r border-b md:border-b-0 border-white/25 cursor-pointer group">
         <img
           src="/lifestyle/hand-tools.jpg"
           alt="Herramientas manuales Stevron"
@@ -27,7 +27,7 @@ export default function LaunchFocus() {
         </div>
       </article>
 
-      <article className="relative min-h-[360px] md:min-h-[460px] overflow-hidden md:border-r border-b md:border-b-0 border-white/25 cursor-pointer group">
+      <article className="relative min-h-[420px] md:min-h-[460px] overflow-hidden md:border-r border-b md:border-b-0 border-white/25 cursor-pointer group">
         <img
           src="/lifestyle/impact-bits.jpg"
           alt="Accesorios Stevron"
@@ -42,11 +42,11 @@ export default function LaunchFocus() {
         </div>
       </article>
 
-      <article className="relative min-h-[360px] md:min-h-[460px] overflow-hidden cursor-pointer group">
+      <article className="relative min-h-[420px] md:min-h-[460px] overflow-hidden cursor-pointer group">
         <img
           src="/lifestyle/impact-wrench.png"
           alt="Herramientas inalámbricas Stevron"
-          className="absolute w-full h-full object-contain bg-[#080a08] transition-transform duration-600 group-hover:scale-105 brightness-[0.58]"
+          className="absolute w-full h-full object-cover object-center bg-[#080a08] transition-transform duration-600 group-hover:scale-105 brightness-[0.58]"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/96 to-black/12"></div>
         <div className="absolute z-20 left-[24px] md:left-[30px] bottom-[24px] md:bottom-[30px] max-w-[75%]">

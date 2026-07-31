@@ -3,12 +3,15 @@ export default function Distributor() {
     'mailto:contacto@stevron.cl?subject=Quiero%20distribuir%20Stevron%20en%20Chile';
 
   return (
-    <section className="flex flex-col md:grid md:grid-cols-[1.15fr_0.85fr] bg-[#080a08] min-h-[420px] md:min-h-[520px]" id="distribuidores">
-      <img
-        src="/lifestyle/hammers.jpg"
-        alt="Herramientas Stevron"
-        className="w-full h-[260px] md:h-full object-cover brightness-60"
-      />
+    <section className="flex flex-col md:grid md:grid-cols-[1.15fr_0.85fr] bg-[#080a08] md:min-h-[1200px]" id="distribuidores">
+      {/* Image wrapper: square on mobile (image is 1:1), fills column on desktop */}
+      <div className="relative w-full aspect-square md:aspect-auto md:min-h-[520px]">
+        <img
+          src="/lifestyle/hammers.jpg"
+          alt="Herramientas Stevron"
+          className="absolute inset-0 w-full h-full object-cover object-center brightness-[0.65]"
+        />
+      </div>
       <div className="px-[clamp(24px,6vw,100px)] py-[55px] md:py-[70px] flex flex-col justify-center text-center md:text-left">
         <p className="m-0 mb-5 text-[11px] font-black tracking-[0.17em] uppercase text-[#c3c82e]">Distribuidores</p>
         <h2 className="m-[10px_0] font-['Bebas_Neue'] text-[clamp(52px,8vw,85px)] leading-[0.9] uppercase">Crece con Stevron.</h2>

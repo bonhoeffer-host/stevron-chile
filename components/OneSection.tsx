@@ -23,11 +23,11 @@ export default function OneSection() {
           <b className="px-[15px] py-[11px] border border-white/22 text-[11px] uppercase">2Ah · 4Ah · 5Ah</b>
         </div>
       </div>
-      <div className="relative w-full max-w-[500px] md:max-w-none h-[300px] sm:h-[400px] md:h-[560px] flex items-center justify-center mx-auto">
+      <div className="relative w-full max-w-[480px] mx-auto aspect-square md:max-w-none md:aspect-auto md:h-[560px] flex items-center justify-center">
         <img
           src="/lifestyle/1ne-system-hero.png.png"
           alt="Sistema de batería Stevron 1ne 20V"
-          className="w-full h-full object-contain drop-shadow-[0_30px_35px_rgba(0,0,0,0.55)]"
+          className="w-full h-full object-cover md:object-contain drop-shadow-[0_30px_35px_rgba(0,0,0,0.55)]"
         />
       </div>
     </section>

@@ -27,7 +27,7 @@ export default function Hero() {
       {/* Copy */}
       <div className="relative z-40 text-center md:text-left">
         <p className="m-0 mb-5 text-[11px] font-black tracking-[0.17em] uppercase">Power. Simplified.</p>
-        <h1 className="m-0 font-['Bebas_Neue'] text-[clamp(58px,12vw,126px)] leading-[0.82] tracking-[-0.015em] uppercase">
+        <h1 className="m-0 font-['Bebas_Neue'] text-[clamp(58px,12vw,126px)] leading-[0.95] tracking-[-0.015em] uppercase">
           Hecho para<br />
           el trabajo.<br />
           Diseñado para<br />
