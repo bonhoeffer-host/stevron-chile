@@ -83,7 +83,7 @@ ${message}
 
       html: `
         <div style="font-family:Arial,sans-serif;color:#222;max-width:600px;">
-          <h2 style="color:#969b27;">Nueva consulta - Mechnova</h2>
+          <h2 style="color:#969b27;">Nueva consulta - Stevron</h2>
 
           <p><strong>Nombre:</strong> ${escapeHtml(name)}</p>
           <p><strong>Correo:</strong> ${escapeHtml(email)}</p>
